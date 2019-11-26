@@ -1,11 +1,11 @@
 body {
-    font-size: 110%;
+    font-size: 100%;
     font-family: 'Work Sans', sans-serif;
     background-color:lightgrey;
-    padding-top: 2rem;
+    padding-top: 5rem;
 }
 
-.container {
+.main {
     margin: auto;
     width: 35%;
 }
@@ -14,19 +14,18 @@ form {
     background-color: white;
     margin: auto;
     position: relative;
-    font-size: 0.9rem;
-    line-height: 1.5rem;
-    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1rem;
     border-radius: 2%;
     padding: 2rem;
-    padding-top: 1.4rem;
+    padding-top: 1rem;
     border: 1px solid #DDD;
     border: inset 1px solid #DDD;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
 }
 
 .form_label {
-    display: block;
+    display: inline-block;
 }
 
 h1 {
@@ -57,7 +56,7 @@ input {
 .submit { 
     width: auto;
     padding: 0.7rem 1rem; 
-    background-color: teal;
+    background-color: green;
     border: 0;
     color: #FFFFFF; 
     text-transform: uppercase;
