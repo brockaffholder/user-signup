@@ -15,7 +15,7 @@ def empty_val(x):
         return False
 
 def char_length(x):
-    if len(x) > 2 and len(x) < 50:
+    if len(x) > 2:
         return True
     else:
         return False
@@ -126,12 +126,6 @@ def user_signup_complete():
             password_validate_error = err_reenter_pw
         elif not email_period(email):
             email_error = "Email must contain ."
-            password = ''
-            password_validate = ''
-            password_error = err_reenter_pw
-            password_validate_error = err_reenter_pw
-        elif not email_period_more_than_one(email):
-            email_error = "Email must contain only one ."
             password = ''
             password_validate = ''
             password_error = err_reenter_pw
